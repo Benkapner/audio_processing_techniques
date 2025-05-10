@@ -6,10 +6,6 @@ A practical project demonstrating how to transform unstructured audio files into
 
 Working with audio for machine learning can sometimes feel like a black box, especially if you're more comfortable with tables than spectrograms. This project bridges that gap by walking through the complete pipeline of feature extraction from `.mp3` files and compiling those features into a pandas DataFrame, making the data ready for standard machine learning workflows.
 
-This project accompanies the article:  
-📄 **"Turning Songs into a Tabular Dataset with Librosa"** – by Ben Kapner  
-Available in the **Towards Data Science** publication.
-
 ## 📂 Contents
 
 - `feature_extraction.ipynb`: Step-by-step tutorial for audio feature extraction using `librosa`.
@@ -38,24 +34,18 @@ The project extracts interpretable features from audio, including:
 
 Each feature is summarized using simple statistics (mean, std, min, max) and compiled into a tabular format.
 
-## 🧠 Example Use Cases
-
-- Genre classification
-- Emotion or mood recognition
-- Similarity and recommendation engines
-- Educational tools for music analysis
-
 ## 🚀 Getting Started
 
 ### Installation
 
 ```bash
 pip install librosa matplotlib pandas numpy
+```
 
 ## ▶️ Run the Notebooks
 
 - Start with **`feature_extraction.ipynb`** to extract features from `.mp3` files.
-- Continue with **`classification_example.ipynb`** to apply machine learning models to the extracted features.
+- Continue with **`classification_example.ipynb`** to apply machine learning models to the extracted features as an example use for the features extracted.
 
 ## 📊 Sample Output
 
